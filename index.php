@@ -2,7 +2,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Exemplo Login PHP</title>
+<title>Login PHP</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
@@ -12,14 +12,14 @@
 		<form method="post" action="liga.php">
 			<h1>Login</h1>
 			<div>
-				<input type="text" placeholder="Utilizador" name="username" />
+				<input type="text" placeholder="Digite o seu nome" name="username" />
 			</div>
 			<div>
-				<input type="password" placeholder="Palavra passe" name="password"  />
+				<input type="password" placeholder="Digite a senha" name="password"  />
 			</div>
 			<div>
 				<input type="submit" value="Log in" />
-				<a href="registar.php">Registar novo utilizador</a>
+				<a href="registar.php">Registrar novo utilizador</a>
                                 <a href="protegido.php">Aceder a conteúdo protegido</a>
 			</div>
 		</form>
